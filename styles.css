@@ -1,0 +1,55 @@
+:root {
+  --primary-color: #b6d9b6;
+  --secondary-color: rgb(228, 192, 113);
+}
+
+/* links */
+a:hover,
+a:focus,
+.navbar-brand {
+  color: var(--primary-color) !important;
+}
+.bi-tree-fill {
+  color: var(--primary-color) !important;
+}
+a {
+  color: #3c3c3c !important;
+}
+.btn {
+  border: 1px solid gray !important;
+  color: black !important;
+  background-color: #f0e9e9 !important;
+}
+.nav-item > .btn {
+  background-color: #b8b2b2 !important;
+}
+.btn:hover,
+.btn:focus {
+  background-color: white !important;
+  color: var(--primary-color) !important;
+}
+.navbar-brand > i {
+  background-color: var(--primary-color) !important;
+}
+.card-body > .price {
+  color: var(--primary-color) !important;
+}
+.card-header {
+  color: forestgreen !important;
+}
+.border-primary {
+  border: 1px solid forestgreen !important;
+}
+.accordion-button {
+  color: rgb(58, 53, 43) !important;
+  font-weight: bolder;
+  background-color: var(--secondary-color) !important;
+}
+.bi-star-fill,
+.bi-star-half {
+  color: var(--secondary-color);
+}
+.fa-brands:hover,
+.fa-brands:focus {
+  color: rgb(107, 104, 104);
+}
